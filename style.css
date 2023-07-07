@@ -1,0 +1,380 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(197, 148, 14)
+
+}
+
+.container {
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+
+.material-symbols-outlined {
+
+
+
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+
+
+}
+
+
+/* Estilos do cabeçalho */
+header {
+  display: flex;
+  background-color: #e2a218;
+  height: 100px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.menu {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  width: 60%;
+  font-size: x-large;
+}
+
+.shvei {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.shvei p {
+  font-weight: bold;
+  font-size: xx-large;
+  width: 2%;
+
+}
+
+.icon {
+  height: auto;
+  width: 20%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+nav ul {
+
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+nav ul li {
+  cursor: pointer;
+  font-size: larger;
+  font-family: cursive;
+  padding: 5px;
+  margin-left: 5%;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+
+}
+
+
+/* Estilos da seção de herói */
+#hero {
+  margin: 3rem;
+  width: 95%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddab69;
+  
+}
+
+.hero-content {
+  max-width: 300px;
+  width: 45%;
+  min-width: 45%;
+  margin: 10px;
+  padding: 15px;
+  
+  
+
+}
+
+
+.hero-content h1 {
+  text-align: center;
+  margin: 5px;
+  padding-top: 10%;
+  font-size: 170px;
+  color: #333;
+
+}
+
+.hero-content p {
+  margin: 5px;
+  padding: 10px;
+  font-size: 27px;
+  text-align: center;
+  color: #fff7f7;
+  margin-bottom: 40px;
+  height: 5px;
+
+
+}
+
+.first-honey {
+  min-height: 20%;
+  max-height: 30%;
+  margin-right: 5%;
+    
+
+}
+
+/* Estilos das seções de conteúdo */
+#whyus {
+  margin: 50px;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(255, 221, 127);
+  
+}
+
+#whyus h2 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+#whyus h3 {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+#whyus .container {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.container .left-one {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #010101;
+  text-align: center;
+
+
+}
+
+
+.why-second {
+  display: flex;
+
+}
+
+.why-second .block {
+  padding: 2.5rem;
+  width: 33.3%;
+
+
+}
+
+
+.all-block {
+  text-align: left !important;
+  font-size: x-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.we-commit {
+  text-align: center !important;
+  font-size: x-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.why-three {
+  justify-content: space-around;
+  display: flex;
+
+
+
+}
+
+.why-three .block {
+  width: 40%;
+  flex-direction: column;
+  margin-top: 15px;
+
+
+
+}
+
+
+.block-one {
+  text-align: left !important;
+  font-size: x-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.block-two {
+  text-align: left !important;
+  font-size: x-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.container .abelha {
+  display: flex;
+  max-width: 200px;
+
+  align-items: center;
+
+
+}
+
+
+#our-products {
+  margin: 50px;
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(255, 213, 0);
+
+}
+
+#our-products .container {
+  width: 50%;
+  
+
+
+}
+#our-products .line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+#our-products .line-two {
+  background-image: url(img/5397533.jpg);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+#our-products .line-two h2{
+  font-size: 70px;
+
+}
+
+#our-products .line-two p{
+  font-size: xx-large;
+
+}
+
+
+
+
+#our-products .container h2{
+  margin: 10%;
+  align-items: center;
+  font-size: 70px;
+  font-family:serif;
+  
+
+
+} 
+
+#our-products .container h3 {
+  margin: 10%;
+  font-size: 50px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+#our-products .container p {
+  margin: 10%;
+  font-size: xx-large;
+  text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+
+
+}
+
+.frasco-mel {
+  width: 50%; 
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+  
+
+
+}
+
+#the-buyers {
+  margin: 50px;
+  padding: 10px;
+  
+
+}
+
+#the-buyers .container{
+  padding: 40%;
+  text-align: center;
+  background-color: #876a2c;
+
+}
+
+
+#the-buyers .pente-mel{
+  width: 50%; 
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
